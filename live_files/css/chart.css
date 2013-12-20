@@ -2,7 +2,7 @@ body {
 	background-color: #fff;
 }
 #container {
-    background-color: #ffe400;
+    background-color: #fff;
 	overflow: hidden;
 }
 #map_body {
@@ -11,7 +11,7 @@ body {
 
 #header {
     border: 0;
-    background-color: #ffe400;
+    background-color: #fff;
 	text-align: center;
 }
 	#titleline {
@@ -46,7 +46,7 @@ body {
 	    margin-left: 4px;
 	    margin-bottom: 4px;
 	    display: table;
-	    background-color: #e6fdff;
+	    background-color: #ffcc33;
 	    background-image: url(../img/piece_bg.png);
 	    text-transform: uppercase;
 		cursor: pointer;
