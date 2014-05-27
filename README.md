@@ -7,6 +7,8 @@ By following these step-by-step instructions, you should be able to install your
 
 You're welcome to edit the code and insert your own images as you see fit, though WNYC asks that you leave the credits thanking their @datanews team intact. Also, it's worth noting the project includes and relies on open-source code from jQuery (http://jquery.org/license/), the Miso Project (https://github.com/misoproject/dataset) and Handlebars (https://github.com/wycats/handlebars.js/blob/master/LICENSE).
 
+![DFM Bingo](screenshots/bingo.png)
+
 Get Started
 -----------
 - Click downloads in the upper right corner here and download and extract the zip. Or run this code at the command line to get your own local copy:
