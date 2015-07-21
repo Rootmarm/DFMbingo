@@ -144,7 +144,7 @@ function update_bingo()
 
     if(bingo)
     {
-     $('#yell-link').attr('href', 'https://twitter.com/intent/tweet?hashtags=emmysbingo&url='+encodeURI(key_to_link())+"&text="+encodeURIComponent("BINGO!!! Check out my bingo card and make your own"));
+     $('#yell-link').attr('href', 'https://twitter.com/intent/tweet?hashtags=UMSbingo&url='+encodeURI(key_to_link())+"&text="+encodeURIComponent("BINGO!!! Check out my bingo card and make your own"));
         $('#yell-button').attr('src', 'img/yellbingo_active.png');
 
     }
