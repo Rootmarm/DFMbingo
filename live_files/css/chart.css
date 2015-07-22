@@ -87,3 +87,48 @@ body {
     bottom: 19px;
 }
 
+body:after {
+  display: none; }
+  @media only screen and (min-width: 220px) {
+    body:after {
+      content: "handheld"; } 
+    #header h2 { width: 100%; background-size: 100%; }
+    #container { width: 100%; }
+    #chart-container { width: 100%; max-width: 100%; }
+    .card { width: 19%; overflow: hidden; font-size: 9px; 
+        margin-left: 2px; margin-bottom: 2px; 
+        letter-spacing: -1px;
+    }
+    .free { background-size: 100% auto; background-repeat: no-repeat; }
+    #bingo-footer { width: 100%; }
+    #yell-button { left: 0; margin: auto; }
+}
+  @media only screen and (min-width: 600px) {
+    body:after {
+      content: "tablet"; } 
+    #header h2 { width: 582px; background-size: 582px; }
+    #container { width: auto; }
+    #chart-container { width: 584px; }
+    .card { width: 112px; overflow: hidden; font-size: 12px;
+        margin-left: 4px; margin-bottom: 4px; 
+        letter-spacing: -1px;
+    }
+    .free { background-size: 100% auto; background-repeat: no-repeat; }
+    #yell-button { left: auto; margin: auto; }
+}
+  @media only screen and (min-width: 768px) {
+    body:after {
+      content: 'tablet-large'; } 
+}
+  @media only screen and (min-width: 1024px) {
+    body:after {
+      content: "desktop-small"; } 
+}
+  @media only screen and (min-width: 1224px) {
+    body:after {
+      content: "desktop"; } 
+}
+  @media only screen and (min-width: 1824px) {
+    body:after {
+      content: "desktop-large"; } 
+}
